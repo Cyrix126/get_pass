@@ -4,4 +4,3 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-# thiserror would be better for a lib but this crate is intended to be used direclty in app.
