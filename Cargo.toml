@@ -4,3 +4,7 @@ version = "0.2.0"
 edition = "2021"
 
 [dependencies]
+url = {version="2.5", optional=true}
+[features]
+default=[]
+combine_with_url=["dep:url"]
